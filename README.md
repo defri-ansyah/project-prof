@@ -24,4 +24,4 @@ This is a backend project using TypeScript, Express, and other tools.
 ### Environment Variables
 
 - `PORT`: Port number for the server
-- `DATABASE_URL`: Database connection URL
+- `MONGO_URI`: Database connection URL

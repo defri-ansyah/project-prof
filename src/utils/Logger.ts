@@ -1,5 +1,10 @@
-const logger = (message: string) => {
-    console.log(`[LOG]: ${message}`);
+const logger = {
+    info: (message: string) => {
+        console.log(`[INFO]: ${message}`);
+    },
+    error: (message: string) => {
+        console.error(`[ERROR]: ${message}`);
+    }
 };
 
 export default logger;
